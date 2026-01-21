@@ -3,7 +3,7 @@ local Player = game.Players.LocalPlayer
 local UserId = Player.UserId
 
 -- Masukkan Link RAW dari file database.lua yang kamu buat di Langkah 1 di sini:
-local URL_DATABASE = "https://raw.githubusercontent.com/danigompal26-ui/JDN/refs/heads/main/database.lua?token=GHSAT0AAAAAADTYOJP5C2B5QUEWBGY3YNEW2LRLVDA"
+local URL_DATABASE = "https://raw.githubusercontent.com/danigompal26-ui/JDN/refs/heads/main/database.lua"
 
 local success, whitelist = pcall(function()
     return loadstring(game:HttpGet(URL_DATABASE))()
