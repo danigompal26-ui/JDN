@@ -34,7 +34,7 @@ if not whitelist[UserId] then
     return -- MATIKAN SCRIPT DI SINI AGAR KODE DI BAWAH TIDAK JALAN
 end
 
--- JIKA LOLOS PENGECEKAN, LANJUT KE SCRIPT ASLI:
+-- JIKA LOLOS PENGECEKAN, LANJUT KE SCRIPT ASLI DIBAWAH INI !!!:
 print("✅ Akses Diterima! Menjalankan Fish It V1.0...")
 
 -- ========== FISH IT: v.1.1 (SAVE ALL LOGS TO TXT) ==========
@@ -138,7 +138,7 @@ panel.Draggable = true
 panel.Parent = screenGui
 
 -- Header
-local titleLabel = Instance.new("TextLabel"); titleLabel.Size = UDim2.new(1, -60, 0, 25); titleLabel.BackgroundColor3 = Color3.fromRGB(0, 120, 220); titleLabel.Text = "  Danny Mobile V48 (Log Saver)"; titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255); titleLabel.Font = Enum.Font.GothamBlack; titleLabel.TextXAlignment = Enum.TextXAlignment.Left; titleLabel.Parent = panel ; titleLabel.TextSize=12
+local titleLabel = Instance.new("TextLabel"); titleLabel.Size = UDim2.new(1, -60, 0, 25); titleLabel.BackgroundColor3 = Color3.fromRGB(0, 120, 220); titleLabel.Text = "  JustDanny Script v.1.1"; titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255); titleLabel.Font = Enum.Font.GothamBlack; titleLabel.TextXAlignment = Enum.TextXAlignment.Left; titleLabel.Parent = panel ; titleLabel.TextSize=12
 local closeBtn = Instance.new("TextButton"); closeBtn.Size = UDim2.new(0, 25, 0, 25); closeBtn.Position = UDim2.new(1, -25, 0, 0); closeBtn.BackgroundColor3 = Color3.fromRGB(200, 50, 50); closeBtn.Text = "X"; closeBtn.TextColor3 = Color3.fromRGB(255, 255, 255); closeBtn.Font = Enum.Font.GothamBlack; closeBtn.Parent = panel; closeBtn.TextSize=12
 local minBtn = Instance.new("TextButton"); minBtn.Size = UDim2.new(0, 25, 0, 25); minBtn.Position = UDim2.new(1, -55, 0, 0); minBtn.BackgroundColor3 = Color3.fromRGB(255, 170, 0); minBtn.Text = "-"; minBtn.TextColor3 = Color3.fromRGB(255, 255, 255); minBtn.Font = Enum.Font.GothamBlack; minBtn.TextYAlignment = Enum.TextYAlignment.Bottom; minBtn.Parent = panel; minBtn.TextSize=18
 local vLine = Instance.new("Frame"); vLine.Size = UDim2.new(0, 1, 1, -50); vLine.Position = UDim2.new(0.32, 0, 0, 30); vLine.BackgroundColor3 = Color3.fromRGB(60, 60, 80); vLine.BorderSizePixel = 0; vLine.Parent = panel
